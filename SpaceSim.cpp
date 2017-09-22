@@ -46,7 +46,7 @@ void Circuit::Init()
     Rb = Matrix(nbranch);
     Lb = Matrix(nbranch);
 
-    for (unsigned int i=0; i < branches.size(); i++)
+    for (int i=0; i < (int)branches.size(); i++)
     {
 
     }
